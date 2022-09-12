@@ -3,13 +3,12 @@ from typing import List
 def selectionSort(array, size) -> List[int]:
   # Write your code he
   for i in range(size):
-    n = i
     for j in range(i+1,size):
-      if array[i] > array[n]:
-        n = j
-    (array[i], array[n]) = (array[n],array[i])
+      if array[i] > arr[j]:
+        array[i]=array[j]
+      else:
+        continue
   return array
-  
 
 # Do not change the following code
 input_data = input()
