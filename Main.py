@@ -6,8 +6,7 @@ def selectionSort(array, size) -> List[int]:
     j = i+1
     for j in size:
       if array[i]<= array[j]:
-            i +=1
-          continue
+          i +=1
       else:
           a = array[j]
           array[j]=array[i]
